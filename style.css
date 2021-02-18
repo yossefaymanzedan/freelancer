@@ -1,0 +1,20 @@
+.home {
+    background-image: linear-gradient(to right, rgba(0,0,0,0.336),rgba(0,0,0,0.336) ), url(header-digital.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+::selection {
+    background-color: red;
+    color: white;
+}
+body {
+    overflow-x: hidden;
+}
+#gray_white {
+    background-color: #f0f0f0;
+}
+@media (min-width: 992px) {
+    .text-wrap {
+        max-width: 30rem;
+    }
+}
